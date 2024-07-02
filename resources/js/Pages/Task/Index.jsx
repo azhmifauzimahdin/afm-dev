@@ -1,5 +1,5 @@
 import Authenticated from "@/Layouts/AuthenticatedLayout";
-import { Head, Link, router } from "@inertiajs/react";
+import { Head } from "@inertiajs/react";
 import TaskTable from "./TaskTable";
 
 export default function Index({ auth, tasks, queryParams = null }) {
